@@ -1,5 +1,41 @@
 ## Jupyter Pyplot and Numpy Problem Sheet
 
+This is a jupyter,pyplot and numpy problem sheet. The aim of this problem sheet is to understand how to use the powerful Python libraries. This problem sheet was created by Ian Mcloughlin as part of our emerging technologies module in college.
+
+You can find my solutions to each of these problems in this repository.
+
+### How to use this repository
+
+1. Ensure you have Python 3.x, Jupyter and Git installed locally.
+2. Enter the following commands into your command line.
+```bash
+# Change directory to anywhere you desire
+cd anywhere..
+
+# Clone this repository using git
+git clone https://github.com/ImErvin/JupyterPyplotNumpy-Problem-Sheet.git
+cd JupyterPyplotNumpy-Problem-Sheet
+
+# Use Jupyter to open the .ipynb within the directory.
+Jupyter notebook IrisNotebook.ipynb
+
+```
+
+### What is are Jupyter?
+Notebook documents (or “notebooks”, all lower case) are documents produced by the Jupyter Notebook App, which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc...). Notebook documents are both human-readable documents containing the analysis description and the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.[1]
+
+### What is Pyplot?
+Pyplot is part of the matplotlib library for Python. It's used to visualize data points in the form of diagrams (plots).
+
+### What is Numpy?
+NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.[2] Pyplot and numpy work very well together to plot arrays onto diagrams.
+
+### References
+
+[1] http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html
+
+[2] https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html
+
 ### Problem Sheet Questions
 
 **1. Get and load the data**
